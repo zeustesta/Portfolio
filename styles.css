@@ -66,3 +66,60 @@ footer .top ul {
   display: flex;
   gap: 40px;
 }
+
+.main {
+  background-color: #deebee;
+  padding: 90px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.main .left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main .left h3 {
+  margin-top: 3px;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.main .left p {
+  color: #1c1e53;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.main .left h3 span {
+  color: #5e3bee;
+}
+
+.main .left button {
+  margin-top: 40px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #5e3bee;
+  padding: 14px 24px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.main .right img {
+  width: 500px;
+}
+
+.skills {
+  padding: 110px 85px 0;
+}
+
+.skills h3,
+.about .right h3,
+.portfolio .header,
+.feedback h3 {
+  font-size: 40px;
+  margin-top: 20px;
+}

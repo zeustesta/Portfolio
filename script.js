@@ -17,3 +17,8 @@ function downloadPDF() {
   
   document.body.removeChild(link);
 }
+
+function copyEmail() {
+  navigator.clipboard.writeText('zeusjtesta@gmail.com');
+  alert('Copied email');
+}

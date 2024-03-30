@@ -286,6 +286,8 @@ footer .footer-content ul {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #638889;
   padding: 40px;
 }

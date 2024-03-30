@@ -293,13 +293,12 @@ footer {
 footer .footer-content {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 
 footer .footer-content .social-links {
   display: flex;
-  flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: space-between;
   gap: 10px;
   font-size: 22px;

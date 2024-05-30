@@ -7,7 +7,7 @@ function downloadPDF() {
   var link = document.createElement('a');
   link.style.display = 'none';
   
-  link.href = 'assets/CV/Cv - Testa Zeus.docx';
+  link.href = 'assets/CV/Curriculum.pdf';
   
   link.download = 'Curriculum - Testa Zeus';
   
